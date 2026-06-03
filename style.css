@@ -160,14 +160,18 @@ a {
   display: inline-block;
 }
 
-.hero h1 {
-  font-family: 'DM Serif Display', serif;
-  font-size: clamp(4.5rem, 12vw, 8rem);
-  line-height: 0.9;
+.hero-name {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(5rem, 13vw, 8.8rem);
+  line-height: 0.92;
   margin-bottom: 1.6rem;
   color: var(--text-main);
-  letter-spacing: -0.04em;
-  font-weight: 400;
+  letter-spacing: -0.055em;
+  font-weight: 700;
+}
+
+.hero-name span {
+  display: block;
 }
 
 .hero h2 {
